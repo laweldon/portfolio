@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pitbulls 101</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/21aa6b9408.js" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;400;800&display=swap');
+    </style>
+  </head>
+  <body>
+    <header>
+
+      <h1><i class="fas fa-paw"></i> Pitbulls 101</h1>
+      <nav>
+        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About the Author</a>
+        <a class="nav-link" href="contact.html"><i class="fas fa-address-card"></i> Contact</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Contact Zelda</h2>
+      <article class="form">
+        <form method="GET">
+          <label>Name:
+            <input type="text" name="contactName">
+          </label>
+
+          <label>Email:
+            <input type="email" name="contactEmail">
+          </label>
+
+          <label>Phone number:
+            <input type="tel" name="contactPhone">
+          </label>
+
+          <fieldset class="checkbox">
+            <legend>What are you interested in?</legend>
+            <label>
+              <input type="checkbox" name="interests" value="Dogs"> I love dogs
+            </label>
+            <label>
+              <input type="checkbox" name="interests" value="Dogs"> I love pitbulls
+            </label>
+            <label>
+              <input type="checkbox" name="interests" value="Dogs"> I love websites
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Do you want to hear back from Lauren or Zelda?</legend>
+            <label>
+              <input type="radio" name="return" value="Lauren">Lauren
+            </label>
+            <label>
+              <input type="radio" name="return" value="Zelda">Zelda
+            </label>
+            <label>
+              <input type="radio" name="return" value="Both">Both
+            </label>
+          </fieldset>
+
+          <input type="submit" value="Send now">
+
+        </form>
+      </article>
+
+    </section>
+
+    <footer>
+      <hr>
+      <p>This page is built by Lauren Weldon and her dog Zelda, 2020.</p>
+    </footer>
+
+  </body>
+</html>
